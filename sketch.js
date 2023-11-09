@@ -59,6 +59,7 @@ function draw() {
   translate(x, y);
   noStroke();
   texture(currentTexture);
+  rotateY(90)
   sphere(150);
 
   // Reverse direction if the ellipse hits the edge
