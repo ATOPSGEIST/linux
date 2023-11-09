@@ -46,7 +46,7 @@ function draw() {
   
 
   // Change the color of the ellipse when it hits the edge
-  if (x <= 50 || x >= windowWidth - 50 || y <= 50 || y >= windowHeight - 50) {
+  if (x <= 150 || x >= windowWidth - 150 || y <= 150 || y >= windowHeight - 150) {
     currentTexture = getRandomImage();
     r = random(255);
     g = random(255);
@@ -59,13 +59,13 @@ function draw() {
   translate(x, y);
   noStroke();
   texture(currentTexture);
-  sphere(50);
+  sphere(150);
 
   // Reverse direction if the ellipse hits the edge
-  if (y >= windowHeight - 50 || y <= 50) {
+  if (y >= windowHeight - 150 || y <= 150) {
     h = -h;
   }
-  if (x >= windowWidth - 50 || x <= 50) {
+  if (x >= windowWidth - 150 || x <= 150) {
     T = -T;
   }
 }
