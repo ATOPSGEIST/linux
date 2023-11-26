@@ -21,7 +21,7 @@ function preload(){
   img1 = loadImage('DCP_7.JPG')
   img2 = loadImage('image1853.jpeg')
   img3 = loadImage('image44.jpeg')
-  background = loadImage('www.vortex.com_.png');
+  background = loadImage('www.vortex.com_.png')
 }
 
 function setup() {
