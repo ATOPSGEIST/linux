@@ -46,7 +46,6 @@ function draw() {
   y += h;
 
   // Set background color to white
-  background(3);
   image (background, -1*windowWidth/2, -1*windowHeight/2, windowWidth, windowHeight);
   ambientLight(200)
   pointLight(250, 200, 180, -2000, -2000, 400);
