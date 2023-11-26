@@ -9,6 +9,7 @@ let img;
 let img1;
 let img2;
 let img3;
+let background;
 let imgs = ['img', 'img1', 'img2', 'img3'];
 let currentTexture; // Variable to store the current texture
 let alphaValue = 0; // Start with an invisible image (alpha = 0)
@@ -20,6 +21,7 @@ function preload(){
   img1 = loadImage('DCP_7.JPG')
   img2 = loadImage('image1853.jpeg')
   img3 = loadImage('image44.jpeg')
+  background = loadImage(
 }
 
 function setup() {
